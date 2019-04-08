@@ -1,7 +1,9 @@
-body {margin: 2em; padding: 2em; line-height: 1.5; background-color: white;}
+body {margin: 0; padding: 0m; line-height: 1; background-color: #3366ff;}
+.header {background-color: #f2f2f2;}
+.main {background-color: white;}
 ul {font-weight: bold;}
 
-h1 {font-size: 4em; text-align: center;}
+h1 {font-size: 3em; text-align: left;}
 h2 {font-size: 3.5em}
 h3 {font-size: 2em}
 
