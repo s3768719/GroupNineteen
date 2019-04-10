@@ -2,8 +2,9 @@ body {
 	margin: 0; 
 	padding: 0m; 
 	line-height: 1.5; 
-	background-color: #3366ff;
-	
+	background-color: LightCyan;
+	background-color: LightCyan; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom left, DarkBlue,LightCyan); /* Standard syntax (must be last) */
 	}
 
 ul {font-weight: bold;}
@@ -26,6 +27,16 @@ p 	{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 1.2em; 
 	} 
 
+.holder {
+	
+	min-height: 100em;
+	min-width: 90em;
+	padding: 1em;
+	background-color: LightCyan; /* For browsers that do not support gradients */
+	background-image: linear-gradient(to bottom right, LightCyan, DarkBlue); /* Standard syntax (must be last) */
+	}
+
+	
 .header {
 	background-color: #f2f2f2;
 	width: 80em;
@@ -34,3 +45,8 @@ p 	{ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background-color: white;
 	width: 80em;
 	}
+	
+.grad1 {
+  
+  
+}
