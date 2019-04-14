@@ -3882,14 +3882,14 @@
 		box-shadow: none;
 		color: #000;
 		height: 100%;
-		max-width: 80%;
+		max-width: 100%;
 		overflow-y: auto;
 		padding: 3rem 2rem;
 		position: fixed;
 		right: 0;
 		top: 0;
 		visibility: hidden;
-		width: 20rem;
+		width: 40rem;
 		z-index: 10002;
 	}
 
@@ -3931,10 +3931,10 @@
 
 		#menu .close {
 			text-decoration: none;
-			-moz-transition: color 0.2s ease-in-out;
-			-webkit-transition: color 0.2s ease-in-out;
-			-ms-transition: color 0.2s ease-in-out;
-			transition: color 0.2s ease-in-out;
+			-moz-transition: color 0.1s ease-in-out;
+			-webkit-transition: color 0.1s ease-in-out;
+			-ms-transition: color 0.1s ease-in-out;
+			transition: color 0.1s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
 			color: #999999;
