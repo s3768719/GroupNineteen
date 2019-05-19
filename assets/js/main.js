@@ -1,3 +1,6 @@
+
+
+
 /*
 	Hielo by TEMPLATED
 	templated.co @templatedco
@@ -311,5 +314,7 @@ var settings = {
 			}
 
 	});
+	
+
 
 })(jQuery);
